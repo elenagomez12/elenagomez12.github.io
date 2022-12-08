@@ -1,0 +1,272 @@
+/**Se mantiene en todas**/
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+    background-color: linen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header h1 {
+    text-align: center;
+    color: maroon;
+}
+
+nav {
+    background-color: bisque;
+    width: 100%;
+}
+
+nav div {
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    display: inline-block;
+    width: 24%;
+    padding: 1%;
+}
+
+.enlace1 {
+    margin-left: 1.5%;
+}
+
+.enlace4 {
+    margin-right: 1.5%;
+}
+
+nav div:hover {
+    background-color: rgb(230, 199, 141);
+}
+
+.enlaces a {
+    color:brown;
+    text-decoration: none;
+}
+
+.enlace1 a {
+    color:brown;
+    text-decoration: none;
+}
+
+.enlace4 a {
+    color:brown;
+    text-decoration: none;
+}
+
+footer {
+    background-color: bisque;
+    padding: 1%;
+    text-align: center;
+    clear: both;
+    color: brown;
+    font-size: small;
+}
+
+.texto a:link {
+    color:darkgreen;
+}
+
+.texto a:visited {
+    color: darkolivegreen;
+}
+
+/**Estilos de los distintos main**/
+.main1 {
+    background-color: burlywood;
+    width: 75%;
+    height: 38em;
+    float: right;
+}
+
+.main2 {
+    background-color: burlywood;
+    width: 50%;
+    height: 101em;
+    float: right;
+}
+
+.main3 {
+    background-color: burlywood;
+    width: 50%;
+    height: 52em;
+    float: right;
+}
+
+/**Estilos de los div de la página pricipal y documentación**/
+div.titulo {
+   text-align: center;
+   font-size: large;
+   padding-top: 2%;
+   font-weight: bold;
+}
+
+div.texto {
+    text-align: center;
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: medium;
+}
+
+div.textocolumnas {
+    column-count: 3;
+    text-align: center;
+    padding-top: 1%;
+    font-size: medium;
+}
+
+/**Estilos de los contenidos multimedia**/
+.fotos {
+    padding: 1%;
+    width: 100%;
+}
+
+#relleno {
+    font-size: smaller;
+}
+
+.foto3 {
+    font-weight: bold;
+    width: 50%;
+    float: right;
+    text-align: center;
+    color: saddlebrown;
+    padding-right: 25%;
+}
+
+.foto4 {
+    width: 50%;
+    float: left;
+    font-weight: bold;
+    text-align: center;
+    color: saddlebrown;
+    padding-left: 25%;
+}
+
+video {
+    width: 100%;
+    padding: 4%;
+}
+
+.foto {
+    padding: 4%;
+}
+
+/**Estilos de los menús laterales**/
+.sidebar1 {
+    background-color: darkgoldenrod;
+    width: 25%;
+    height: 38em;
+    float: left;
+}
+
+.sidebar2 {
+    background-color:goldenrod;
+    width: 25%;
+    height: 101em;
+    float: right;
+}
+
+.sidebar3 {
+    background-color: darkgoldenrod;
+    width: 25%;
+    height: 101em;
+    float: left;
+}
+
+.sidebar4 {
+    background-color: darkgoldenrod;
+    width: 25%;
+    height: 52em;
+    float: left;
+}
+
+.sidebar5 {
+    background-color:goldenrod;
+    width: 25%;
+    height: 52em;
+    float: right;
+}
+
+.textosidebar {
+    padding: 1%;
+}
+
+.titulosidebar {
+    margin-top: 5%;
+    padding: 2%;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+/**Formulario**/
+fieldset {
+    border-color:rgb(230, 199, 141);
+    padding: 1%;
+    margin: 1%;
+}
+
+legend {
+    color: rgb(88, 44, 12);
+    font-weight: bold;
+    text-align: center;
+}
+
+/**Tabla para el currículum**/
+table {
+    padding: 2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: medium;
+}
+
+td {
+    border: 1px solid rgb(179, 149, 109);
+    padding: 1%;
+}
+
+.borde {
+    border: none;
+}
+
+.titcv {
+    font-size: x-large;
+    font-weight: bold;
+    color: rgb(88, 44, 12);
+}
+
+.intro {
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(124, 62, 17);
+}
+
+.negrita {
+    font-weight: bold;
+    color: saddlebrown;
+}
+
+/**Menú lateral del formulario**/
+.social {
+    list-style-type: georgian;
+}
+
+.educ {
+    list-style-type: square;
+}
+
+.textosidform {
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+/**Vídeo de Youtube**/
+.videoyoutube {
+    width: 100%;
+    text-align: center;
+    padding: 5%;
+}

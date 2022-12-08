@@ -1,0 +1,171 @@
+<!--Autora Elena GG-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario sobre ti</title>
+    <link rel="stylesheet" href="./estilos/stylemain.css">
+</head>
+<body>
+<!--Título de la página-->
+    <header>
+        <h1>FORMULARIO SOBRE TI</h1>
+    </header>
+    <div class="contenedor">
+<!--Menú de navegación-->
+        <nav>
+            <div class="enlace1">
+                <a href="./index.html">Página Principal</a>
+            </div>
+            <div class="enlaces">
+                <a href="./cv.html">Currículum</a>
+            </div>
+            <div class="enlaces">
+                <a href="./formulario.html">Formulario</a>
+            </div>
+            <div class="enlace4">
+                <a href="./proyecto.html">Sobre el proyecto</a>
+            </div>
+        </nav>
+        <main class="main2">
+<!--Formulario sobre el visitante de la página-->
+           <form>
+                <fieldset>
+                    <legend>Datos personales</legend>
+                    Nombre<br>
+                    <input type="text" value="Antonio"><br>
+                    <br>Apellido<br>
+                    <input type="text" value="Fernández"><br>
+                    <br>Email<br>
+                    <input type="email" value="antoniofernandez@gmail.com" size="60"><br>
+                    <br>¿Cuántos años tienes?<br>
+                    <input type="number" min="10" max="100" value="18"><br>
+                    <br>¿Tienes algún repositorio en GitHub?<br>
+                    <input type="radio">Si
+                    <input type="radio">No<br>
+                    <br>En caso afirmativo, deja aqui tu enlace<br>
+                    <input type="url" value="https://github.com/" size="60"><br>
+                    <br>¿Cuál es tu color favorito?<br>
+                    <input type="color">
+                </fieldset>
+                <fieldset>
+                    <legend>Estudios</legend>
+                    ¿Estás estudiando algo actualmente?<br>
+                    <input type="radio">Si
+                    <input type="radio">No<br>
+                    <br>Has hecho/Estás haciendo una FP?<br>
+                    <input type="radio">Si
+                    <input type="radio">No<br>
+                    <br>¿Relacionada con qué?<br>
+                    <input type="checkbox">Informática<br>
+                    <input type="checkbox">Estética y belleza<br>
+                    <input type="checkbox">Educación<br>
+                    <input type="checkbox">Electrónica<br>
+                    <input type="checkbox">Atención a personas<br>
+                    <input type="checkbox">Otro: <input type="text"><br>
+                    <br>¿Dónde cursaste tus últimos estudios?<br>
+                    <input type="text" size="60"><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Aficiones</legend>
+                    ¿Coleccionas algo?<br>
+                    <input type="checkbox">Imanes<br>
+                    <input type="checkbox">Chapas<br>
+                    <input type="checkbox">Camisetas<br>
+                    <input type="checkbox">Llaveros<br>
+                    <input type="checkbox">Nada<br>
+                    <input type="checkbox">Otro: <input type="text"><br>
+                    <br>¿Juegas a algún deporte?<br>
+                    <input type="checkbox">Fútbol<br>
+                    <input type="checkbox">Baloncesto<br>
+                    <input type="checkbox">Tenis<br>
+                    <input type="checkbox">Golf<br>
+                    <input type="checkbox">Ninguno<br>
+                    <input type="checkbox">Otro: <input type="text"><br>
+                    <br>Cosas que te guste hacer en tu tiempo libre<br>
+                    <input type="checkbox">Ver pelis/series<br>
+                    <input type="checkbox">Puzzles<br>
+                    <input type="checkbox">Jugar videojuegos<br>
+                    <input type="checkbox">Ir al cine<br>
+                    <input type="checkbox">Teatros/musicales<br>
+                    <input type="checkbox">Otro: <input type="text">
+                </fieldset>
+                <fieldset>
+                    <legend>Cosas que te gusten</legend>
+                    A mí me gusta bastante la fotografía, si a ti también te gusta puedes dejarme por aquí alguna foto que te guste.<br>
+                    <br><input type="file">
+                </fieldset>
+                <fieldset>
+                    <legend>Comentarios</legend>
+                    ¿Algo que quieras comentarme?<br>
+                    <textarea rows="2" cols="60"></textarea><br>
+                    <br>Día de hoy<br>
+                    <input type="date">
+                </fieldset>
+                <input type="submit" value="Enviar" class="boton">
+                <input type="reset" value="Borrar" class="boton">
+           </form>
+        </main>
+<!--Menú lateral con mis datos, vídeo e imagen-->
+        <div class="sidebar3">
+            <p class="titulosidebar">
+                MIS DATOS PERSONALES
+            </p>
+            <p class="textosidform">
+                Me llamo Elena GG.<br>
+                Mi correo es: elena.gomez12@educa.madrid.org.<br>
+                Tengo perfil de Github, es el siguiente: elenagomez12.<br>
+                Tengo 17 años y mi color favorito es el azul.
+            </p>
+            <p class="titulosidebar">
+                MIS ESTUDIOS
+            </p>
+            <p class="textosidform">
+                Actualmente estoy estudiando. <br>
+                Estoy cursando una FP, un Grado Medio en Sistemas Microinformáticos y Redes.<br>
+                Lo estoy haciendo en el I.E.S. Villablanca, en Vicálvaro.
+            </p>
+            <p class="titulosidebar">
+                MIS AFICIONES
+            </p>
+            <p class="textosidform">
+                Colecciono imanes de cada sitio al que voy y al que va gente cercana.<br>
+                Actualmente no hago ningún deporte, pero he hecho baile durante 10 años.<br>
+                Hay muchas cosas que me gusta hacer en mi tiempo libre, salir con amigos, ver pelis, dibujar, maquillarme, hacer puzzles...
+            </p>
+            <p class="titulosidebar">
+                COSAS QUE ME GUSTAN
+            </p>
+            <p class="textosidform">
+                Me encanta hacer fotos, cada vez que veo algo que me gusta le hago fotos.<br>
+                Me encantan los amaneceres y los atarderes, el cielo y la naturaleza en general me gusta muchísimo y me podría tirar horas admirándola.<br>
+                Me gusta mucho viajar y perderme por la montaña.
+            </p>
+            <div class="video">
+                <video src="./img/10.mp4" muted loop autoplay></video>
+            </div>
+            <div class="foto">
+                <img src="./img/7.jpg" class="fotos" alt="foto">
+            </div>
+        </div>
+<!--Segundo menú lateral únicamente con contenido multimedia-->
+        <div class="sidebar2">
+            <div class="foto">
+                <img src="./img/9.jpeg" class="fotos" alt="foto">
+            </div>
+            <div class="video">
+                <video src="./img/11.mp4" muted loop autoplay></video>
+            </div>
+            <div class="foto">
+                <img src="./img/6.jpg" class="fotos" alt="foto">
+            </div>
+        </div>
+<!--Pie de la página-->
+        <footer>
+        Creado por Elena GG.
+        </footer>
+    </div>
+</body>
+</html>
